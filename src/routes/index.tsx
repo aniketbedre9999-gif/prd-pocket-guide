@@ -49,8 +49,8 @@ function HomePage() {
       {/* HERO */}
       <section className="relative overflow-hidden bg-primary text-primary-foreground">
         <div className="absolute inset-0">
-          <img src={heroImg} alt="" className="h-full w-full object-cover opacity-25" />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-primary/40" />
+          <img src={heroImg} alt="" className="h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-l from-primary via-primary/70 to-primary/10" />
         </div>
         <div className="container-x relative py-20 md:py-28 lg:py-32 grid lg:grid-cols-2 gap-10 items-center">
           <div>
